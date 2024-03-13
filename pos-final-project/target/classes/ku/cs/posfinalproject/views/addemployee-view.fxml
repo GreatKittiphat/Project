@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.posfinalproject.controllers.AddEmployee">
+   <children>
+      <Label layoutX="547.0" layoutY="33.0" text="ADD EMPLOYEEE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="543.0" layoutY="207.0" text="name">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="543.0" layoutY="323.0" text="role">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="547.0" layoutY="444.0" text="username">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="544.0" layoutY="565.0" text="password">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="543.0" layoutY="242.0" prefHeight="53.0" prefWidth="273.0" />
+      <TextField layoutX="544.0" layoutY="358.0" prefHeight="53.0" prefWidth="273.0" />
+      <TextField layoutX="544.0" layoutY="600.0" prefHeight="53.0" prefWidth="273.0" />
+      <TextField layoutX="547.0" layoutY="479.0" prefHeight="53.0" prefWidth="273.0" />
+   </children>
+</AnchorPane>
